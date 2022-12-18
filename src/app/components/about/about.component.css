@@ -1,0 +1,9 @@
+.masthead {
+    height: 100vh;
+    min-height: 200px;
+    background-image: url('../../../assets/imgs/linkedinfoto.jpg');
+    background-size: cover;
+    background-position: center 40px;
+    background-repeat: no-repeat;
+    padding-top: 60px; /*make room for the nav bar */
+  }

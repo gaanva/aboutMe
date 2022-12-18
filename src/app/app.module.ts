@@ -4,11 +4,21 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
+import { AboutComponent } from './components/about/about.component';
+import { ExperienceComponent } from './components/experience/experience.component';
+import { EventsComponent } from './components/events/events.component';
+import { ContactsComponent } from './components/contacts/contacts.component';
+import { SkillsComponent } from './components/skills/skills.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavBarComponent
+    NavBarComponent,
+    AboutComponent,
+    ExperienceComponent,
+    EventsComponent,
+    ContactsComponent,
+    SkillsComponent
   ],
   imports: [
     BrowserModule,
